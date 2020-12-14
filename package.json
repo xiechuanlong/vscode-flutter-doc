@@ -1,0 +1,47 @@
+{
+  "name": "flutter-doc",
+  "displayName": "flutter doc",
+  "description": "show flutter widget doc",
+  "version": "0.1.0",
+  "publisher": "xiechuanlong",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:flutterDoc.show"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flutterDoc.show",
+        "title": "Flutter Doc",
+        "category": "documentation"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6",
+    "eslint": "^4.11.0",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "get-port": "^3.2.0",
+    "jsdom": "^11.6.2",
+    "socket.io": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
