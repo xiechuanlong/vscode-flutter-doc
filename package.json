@@ -11,15 +11,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:flutterDoc.show"
+    "*"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "flutterDoc.show",
-        "title": "Flutter Doc",
-        "category": "documentation"
+        "title": "Flutter Doc"
       }
     ]
   },
