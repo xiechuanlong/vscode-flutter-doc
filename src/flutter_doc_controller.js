@@ -10,10 +10,12 @@ class FlutterDocController {
         this.docUrl = docUrl;
         // 监听vscode事件
         let disposable = commands.registerCommand('flutterDoc.show', () => {
+            // Display a message box to the user
+            vscode.window.showInformationMessage('Hello World!');
             this.view.show({ docUrl: this.docUrl });
         });
 
-       context.subscriptions.push(disposable);
+        context.subscriptions.push(disposable);
     }
     dispose() {
         this.view.dispose();
