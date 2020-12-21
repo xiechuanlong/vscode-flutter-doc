@@ -2,7 +2,7 @@ const FlutterDocController = require('./src/flutter_doc_controller');
 const View = require('./src/view');
 const vscode = require('vscode');
 
-const docUrl = 'https://book.flutterchina.club';
+const docUrl = 'https://book.flutterchina.club/chapter1/install_flutter.html';
 function activate(context) {
     vscode.window.showInformationMessage('activity flutter doc plugin!');
   try {
