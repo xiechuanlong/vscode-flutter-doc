@@ -45,7 +45,6 @@ class DocumentationProvider {
                var liWrap = document.querySelectorAll('nav[role="navigation"]') || [];
                liWrap[0].addEventListener('click', (event) => {
                    let href = event.target.getAttribute('href-attr');
-                   console.log(href, 11111)
                     jsVscode.postMessage({eventName: 'flutterDocReloadWebView', href: href});
                })
                </script>
