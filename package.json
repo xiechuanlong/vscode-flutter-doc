@@ -2,7 +2,7 @@
   "name": "flutter-doc",
   "displayName": "flutter doc",
   "description": "show flutter widget doc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "xiechuanlong",
   "engines": {
     "vscode": "^1.23.0"
