@@ -2,7 +2,7 @@ const FlutterDocController = require('./src/flutter_doc_controller');
 const View = require('./src/view');
 const vscode = require('vscode');
 
-const docUrl = 'https://book.flutterchina.club/chapter1/install_flutter.html';
+const docUrl = 'https://book.flutterchina.club';
 function activate(context) {
   try {
     const webView = new View({ context });
